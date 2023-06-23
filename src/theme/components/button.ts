@@ -16,9 +16,25 @@ export const Button = defineStyleConfig({
                 textShadow: 'rgba(0, 0, 0, 0.56) 0px 3px 12px',
                 boxShadow: 'rgba(80, 63, 205, 0.5) 0px 1px 40px',
             },
+            transitionProperty: 'all',
+            transitionDuration: '0.12s',
+        },
+        glass: {
+            transitionProperty: 'all',
+            transitionDuration: '0.26s',
+            background: 'rgba(255, 255, 255, 0.1)',
+            borderWidth: '1px',
+            borderStyle: 'solid',
+            borderColor: 'rgba(255, 255, 255, 0.05)',
+            backdropFilter: 'blur(12px)',
         },
     },
     sizes: {
+        extraSmall: {
+            paddingX: 'space12',
+            height: 28,
+            textStyle: 'extraSmall',
+        },
         small: {
             height: 'space32',
             paddingX: 'space16',

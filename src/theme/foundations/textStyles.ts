@@ -14,10 +14,17 @@ export const textStyles = {
         boxDecorationBreak: 'clone',
     },
     small: {
+        fontFamily: 'inter',
         fontSize: 14,
         lineHeight: 1.5,
         fontWeight: 500,
         textAlign: 'center',
         textShadow: 'rgba(0, 0, 0, 0.3) 1px 1px 4px, rgba(0, 0, 0, 0.1) 2px 2px 4px',
+    },
+    extraSmall: {
+        fontFamily: 'inter',
+        fontSize: 13,
+        lineHeight: 1.5,
+        fontWeight: 500,
     },
 };
