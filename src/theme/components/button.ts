@@ -10,6 +10,7 @@ export const Button = defineStyleConfig({
     },
     variants: {
         gradient: {
+            textShadow: 'rgba(0, 0, 0, 0.25) 0px 3px 8px',
             background:
                 'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
             _hover: {
@@ -46,6 +47,7 @@ export const Button = defineStyleConfig({
         medium: {
             height: 'space48',
             paddingX: 'space24',
+            textStyle: 'medium',
         },
     },
     defaultProps: {

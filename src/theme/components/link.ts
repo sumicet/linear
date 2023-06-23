@@ -6,6 +6,7 @@ export const Link = defineStyleConfig({
     },
     variants: {
         solid: {
+            textShadow: 'rgba(0, 0, 0, 0.3) 1px 1px 4px, rgba(0, 0, 0, 0.1) 2px 2px 4px',
             textStyle: 'small',
             color: 'primary',
             _hover: {

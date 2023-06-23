@@ -13,13 +13,25 @@ export const textStyles = {
         textFillColor: 'transparent',
         boxDecorationBreak: 'clone',
     },
+    large: {
+        fontFamily: 'inter',
+        fontSize: 22,
+        lineHeight: 1.3,
+        fontWeight: 400,
+        textAlign: 'center',
+    },
+    medium: {
+        fontFamily: 'inter',
+        fontSize: 16,
+        lineHeight: 1.2,
+        fontWeight: 500,
+    },
     small: {
         fontFamily: 'inter',
         fontSize: 14,
         lineHeight: 1.5,
         fontWeight: 500,
         textAlign: 'center',
-        textShadow: 'rgba(0, 0, 0, 0.3) 1px 1px 4px, rgba(0, 0, 0, 0.1) 2px 2px 4px',
     },
     extraSmall: {
         fontFamily: 'inter',
