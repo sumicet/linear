@@ -2,7 +2,7 @@ import { defineStyleConfig } from '@chakra-ui/react';
 
 export const Button = defineStyleConfig({
     baseStyle: {
-        borderRadius: 9999,
+        borderRadius: 'full',
         cursor: 'pointer',
         display: 'inline-flex',
         justifyContent: 'center',
@@ -22,11 +22,14 @@ export const Button = defineStyleConfig({
         glass: {
             transitionProperty: 'all',
             transitionDuration: '0.26s',
-            background: 'rgba(255, 255, 255, 0.1)',
+            bgColor: 'white10',
             borderWidth: '1px',
             borderStyle: 'solid',
-            borderColor: 'rgba(255, 255, 255, 0.05)',
+            borderColor: 'white5',
             backdropFilter: 'blur(12px)',
+            _hover: {
+                bgColor: 'white20',
+            },
         },
     },
     sizes: {

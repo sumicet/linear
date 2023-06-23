@@ -3,7 +3,7 @@ import { fonts } from './fonts';
 import { textStyles } from './textStyles';
 import { space } from './space';
 import { sizes } from './sizes';
-// import { radii } from './radii';
+import { radii } from './radii';
 import { breakpoints } from './breakpoints';
 // import { shadows } from './shadows';
 import { transition } from './transition';
@@ -14,7 +14,7 @@ export const foundations = {
     textStyles,
     space,
     sizes,
-    // radii,
+    radii,
     breakpoints,
     // shadows,
     transition,
