@@ -6,4 +6,6 @@ export const space = {
     space32: '32px',
     space48: '48px',
     space64: '64px',
+    space72: '72px',
+    space128: '128px',
 };
