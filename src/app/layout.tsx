@@ -6,11 +6,11 @@ import '@fontsource-variable/inter';
 import { theme } from '@/theme';
 import { Header } from './Header';
 
-export const metadata = {
-    title: 'Linear – A better way to build products',
-    description:
-        'Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development.',
-};
+// export const metadata = {
+//     title: 'Linear – A better way to build products',
+//     description:
+//         'Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development.',
+// };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
