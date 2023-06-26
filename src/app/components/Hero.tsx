@@ -2,6 +2,7 @@ import { Image, MotionBox, MotionSvg } from '@/components';
 import { Box } from '@chakra-ui/react';
 import { motion, useAnimation } from 'framer-motion';
 import hero4x from '@/assets/hero@4x.webp';
+import { Fragment } from 'react';
 
 const pathDuration = 0.6;
 
@@ -36,6 +37,21 @@ const imageVariants = {
         opacity: 1,
     },
 };
+
+const lines = [
+    {
+        duration: 2,
+        repeatDelay: 4,
+    },
+    {
+        duration: 2,
+        repeatDelay: 3,
+    },
+    {
+        duration: 2,
+        repeatDelay: 8,
+    },
+];
 
 export function Hero() {
     const lightAnimation = useAnimation();
@@ -76,13 +92,53 @@ export function Hero() {
         >
             <Box
                 position='absolute'
-                top={0}
-                left={0}
-                boxSize='100%'
+                top={-1}
+                left={-1}
+                boxSize='calc(100% + 2px)'
                 bgColor='white1'
                 bgImage='radial-gradient(ellipse 50% 80% at 20% 40%,rgba(93,52,221,0.1),rgba(255,255,255,0)), radial-gradient(ellipse 50% 80% at 80% 50%,rgba(120,119,198,0.15),rgba(255,255,255,0))'
-            />
-
+                borderRadius='radius8'
+            >
+                <Box
+                    // bg='linear-gradient(to bottom,rgba(95,106,210,0.2),rgba(255,255,255,0))'
+                    boxSize='100%'
+                    borderRadius='radius8'
+                />
+                {['horizontal', 'vertical'].map(direction => (
+                    <Fragment key={direction}>
+                        {lines.map(line => (
+                            <MotionBox
+                                key={line.duration}
+                                bg={`linear-gradient(to ${
+                                    direction === 'horizontal' ? 'left' : 'top'
+                                },#9d9bf2 0.43%,#7877c6 14.11%,rgba(120,119,198,0) 62.95%)`}
+                                position='absolute'
+                                height={direction === 'horizontal' ? 1 : 120}
+                                maxWidth={direction === 'horizontal' ? 120 : 1}
+                                width='100%'
+                                zIndex={10}
+                                borderRadius={2}
+                                right={direction === 'horizontal' ? 'auto' : 0}
+                                initial={{
+                                    left: direction === 'horizontal' ? '0%' : 'auto',
+                                    top: '0%',
+                                    opacity: 0,
+                                }}
+                                animate={{
+                                    left: direction === 'horizontal' ? '80%' : 'auto',
+                                    top: direction === 'horizontal' ? '0%' : '80%',
+                                    opacity: [0, 1, 0],
+                                }}
+                                transition={{
+                                    ...line,
+                                    repeat: Infinity,
+                                    delay: direction === 'vertical' ? 2 : 0,
+                                }}
+                            />
+                        ))}
+                    </Fragment>
+                ))}
+            </Box>
             <MotionBox
                 position='absolute'
                 top={0}
