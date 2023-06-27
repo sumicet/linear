@@ -7,7 +7,6 @@ export const Link = defineStyleConfig({
     variants: {
         solid: {
             textShadow: 'rgba(0, 0, 0, 0.3) 1px 1px 4px, rgba(0, 0, 0, 0.1) 2px 2px 4px',
-            textStyle: 'small',
             textAlign: 'center',
             color: 'primary',
             _hover: {
@@ -22,6 +21,14 @@ export const Link = defineStyleConfig({
                 color: 'primary',
             },
             transitionDuration: 'quick',
+        },
+    },
+    sizes: {
+        small: {
+            textStyle: 'small',
+        },
+        medium: {
+            textStyle: 'medium',
         },
     },
 });

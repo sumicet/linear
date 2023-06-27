@@ -85,10 +85,7 @@ export default function Home() {
                             delay: 0.8,
                         }}
                     >
-                        <Button
-                            zIndex={3}
-                            rightIcon={<Icon as={HiChevronRight} boxSize='space16' />}
-                        >
+                        <Button rightIcon={<Icon as={HiChevronRight} boxSize='space16' />}>
                             Get started
                         </Button>
                     </MotionBox>

@@ -15,11 +15,14 @@ export const Divider = defineStyleConfig({
         }
     },
     variants: {
+        ghost: {
+            bg: 'rgba(255, 255, 255, 0.08)',
+        },
         solid: {
-            bg: 'divider',
+            bg: 'rgb(34, 35, 38)',
         },
     },
     defaultProps: {
-        variant: 'solid',
+        variant: 'ghost',
     },
 });
