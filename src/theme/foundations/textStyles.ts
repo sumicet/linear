@@ -1,24 +1,29 @@
 export const textStyles = {
     heading: {
-        backgroundImage:
-            'linear-gradient(to right bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.38))',
-        backgroundClip: 'text',
         fontSize: 80,
         lineHeight: 1,
         letterSpacing: '-0.02em',
         fontWeight: 500,
         fontFamily: 'inter',
-        color: 'unset',
-        textAlign: 'center',
-        textFillColor: 'transparent',
-        boxDecorationBreak: 'clone',
     },
-    large: {
+    subheading: {
+        fontSize: 44,
+        lineHeight: 1,
+        letterSpacing: '-0.01em',
+        fontWeight: 500,
+        fontFamily: 'inter',
+    },
+    extraLarge: {
         fontFamily: 'inter',
         fontSize: 22,
         lineHeight: 1.3,
         fontWeight: 400,
-        textAlign: 'center',
+    },
+    large: {
+        fontFamily: 'inter',
+        fontSize: 18,
+        lineHeight: 1.3,
+        fontWeight: 400,
     },
     medium: {
         fontFamily: 'inter',
@@ -31,7 +36,6 @@ export const textStyles = {
         fontSize: 14,
         lineHeight: 1.5,
         fontWeight: 500,
-        textAlign: 'center',
     },
     extraSmall: {
         fontFamily: 'inter',

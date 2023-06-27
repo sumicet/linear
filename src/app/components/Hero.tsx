@@ -99,8 +99,9 @@ export function Hero() {
                 bgImage='radial-gradient(ellipse 50% 80% at 20% 40%,rgba(93,52,221,0.1),rgba(255,255,255,0)), radial-gradient(ellipse 50% 80% at 80% 50%,rgba(120,119,198,0.15),rgba(255,255,255,0))'
                 borderRadius='radius8'
             >
-                <Box
-                    // bg='linear-gradient(to bottom,rgba(95,106,210,0.2),rgba(255,255,255,0))'
+                <MotionBox
+                    variants={imageVariants}
+                    bg='linear-gradient(to bottom,rgba(95,106,210,0.2),rgba(255,255,255,0))'
                     boxSize='100%'
                     borderRadius='radius8'
                 />
@@ -139,6 +140,8 @@ export function Hero() {
                     </Fragment>
                 ))}
             </Box>
+
+            {/* Light */}
             <MotionBox
                 position='absolute'
                 top={0}
@@ -160,36 +163,21 @@ export function Hero() {
                 position='absolute'
                 opacity={0.2}
             >
-                <motion.path
-                    variants={pathVariants}
-                    d='M1500 72L220 72'
-                    stroke='rgb(208, 214, 224)'
-                    strokeWidth={1}
-                />
-                <motion.path
-                    variants={pathVariants}
-                    d='M1500 128L220 128'
-                    stroke='rgb(208, 214, 224)'
-                    strokeWidth={1}
-                />
-                <motion.path
-                    variants={pathVariants}
-                    d='M1500 189L220 189'
-                    stroke='rgb(208, 214, 224)'
-                    strokeWidth={1}
-                />
-                <motion.path
-                    variants={pathVariants}
-                    d='M220 777L220 1'
-                    stroke='rgb(208, 214, 224)'
-                    strokeWidth={1}
-                />
-                <motion.path
-                    variants={pathVariants}
-                    d='M538 777L538 128'
-                    stroke='rgb(208, 214, 224)'
-                    strokeWidth={1}
-                />
+                {[
+                    'M1500 72L220 72',
+                    'M1500 128L220 128',
+                    'M1500 189L220 189',
+                    'M220 777L220 1',
+                    'M538 777L538 128',
+                ].map(d => (
+                    <motion.path
+                        key={d}
+                        variants={pathVariants}
+                        d={d}
+                        stroke='rgb(208, 214, 224)'
+                        strokeWidth={1}
+                    />
+                ))}
             </MotionSvg>
 
             <MotionBox

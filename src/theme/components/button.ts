@@ -43,6 +43,7 @@ export const Button = defineStyleConfig({
             height: 'space32',
             paddingX: 'space16',
             textStyle: 'small',
+            textAlign: 'center',
         },
         medium: {
             height: 'space48',

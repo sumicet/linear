@@ -28,7 +28,7 @@ const animationProps = {
 export default function Home() {
     return (
         <VStack as='main' spacing='space48' display='flex' flex={1} width='100%'>
-            <VStack spacing={{ base: 'space72', sm: 'space128' }} width='100%'>
+            <VStack spacing={{ base: 'space72', md: 'space128' }} width='100%'>
                 <VStack spacing='space48' width='100%'>
                     <VStack spacing='space24' width='100%'>
                         <MotionVStack spacing='space24' width='100%' {...animationProps}>
@@ -49,7 +49,11 @@ export default function Home() {
                                 Linear × Figma Plugin
                             </Button>
                             <Balancer>
-                                <Text as='h1' variant='heading'>
+                                <Text
+                                    as='h1'
+                                    size={{ base: 'subheading', md: 'heading' }}
+                                    variant='gradient'
+                                >
                                     Linear is a better way to build products
                                 </Text>
                             </Balancer>
@@ -62,7 +66,12 @@ export default function Home() {
                             }}
                         >
                             <Balancer>
-                                <Text as='h2' variant='large' color='secondary'>
+                                <Text
+                                    as='h2'
+                                    size={{ base: 'large', md: 'extraLarge' }}
+                                    color='secondary'
+                                    textAlign='center'
+                                >
                                     Meet the new standard for modern software development.
                                     Streamline issues, sprints, and product roadmaps.
                                 </Text>
