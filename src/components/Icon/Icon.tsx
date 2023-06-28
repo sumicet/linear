@@ -1,8 +1,34 @@
 import { IconProps as ChakraIconProps } from '@chakra-ui/react';
-import { Logo } from './icons';
+import {
+    CashAppLogo,
+    DescriptLogo,
+    Logo,
+    LoomLogo,
+    RampLogo,
+    RaycastLogo,
+    VercelLogo,
+    MercuryLogo,
+    RetoolLogo,
+    AlanLogo,
+    ArcLogo,
+    OpenSeaLogo,
+    PitchLogo,
+} from './icons';
 
 const icons = {
     logo: Logo,
+    rampLogo: RampLogo,
+    loomLogo: LoomLogo,
+    vercelLogo: VercelLogo,
+    descriptLogo: DescriptLogo,
+    cashAppLogo: CashAppLogo,
+    raycastLogo: RaycastLogo,
+    mercuryLogo: MercuryLogo,
+    retoolLogo: RetoolLogo,
+    alanLogo: AlanLogo,
+    arcLogo: ArcLogo,
+    openSeaLogo: OpenSeaLogo,
+    pitchLogo: PitchLogo,
 } as const;
 
 export interface IconProps extends ChakraIconProps {
