@@ -32,6 +32,7 @@ export function ToolsSection() {
             whileInView='visible'
             viewport={{
                 once: true,
+                amount: 0.3,
             }}
             width='100%'
             spacing='space24'

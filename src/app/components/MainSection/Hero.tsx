@@ -78,7 +78,6 @@ export function Hero() {
             initial='hidden'
             whileInView='visible'
             viewport={{
-                amount: 0.8,
                 once: true,
             }}
             transition={{

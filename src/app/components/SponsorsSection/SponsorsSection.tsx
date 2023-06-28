@@ -46,6 +46,7 @@ export function SponsorsSection() {
             whileInView='visible'
             viewport={{
                 once: true,
+                amount: 0.5,
             }}
             spacing={0}
         >
