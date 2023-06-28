@@ -37,7 +37,11 @@ export function ToolsSection() {
             spacing='space24'
         >
             <Balancer>
-                <MotionText variants={textVariants} size='title' textAlign='center'>
+                <MotionText
+                    variants={textVariants}
+                    size={{ base: 'subtitle', md: 'title' }}
+                    textAlign='center'
+                >
                     Unlike any tool you’ve used before
                 </MotionText>
             </Balancer>
@@ -45,7 +49,7 @@ export function ToolsSection() {
                 <MotionText
                     variants={textVariants}
                     custom={0.4}
-                    size='extraLarge'
+                    size={{ base: 'large', md: 'extraLarge' }}
                     color='secondary'
                     textAlign='center'
                 >

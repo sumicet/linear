@@ -53,6 +53,20 @@ const lines = [
     },
 ];
 
+const paths = [
+    'M1127 52H240',
+    'M240 849V0',
+    'M1127 849L1127 0',
+    'M1127 104L240 104',
+    'M1127 446L240 446',
+    'M1127 590L240 590',
+    'M1499 147H1127',
+    'M1499 405H1127',
+    'M1499 477H1127',
+    'M1499 551H1127',
+    'M1127 249L240 249',
+];
+
 export function Hero() {
     const lightAnimation = useAnimation();
 
@@ -163,13 +177,7 @@ export function Hero() {
                 position='absolute'
                 opacity={0.2}
             >
-                {[
-                    'M1500 72L220 72',
-                    'M1500 128L220 128',
-                    'M1500 189L220 189',
-                    'M220 777L220 1',
-                    'M538 777L538 128',
-                ].map(d => (
+                {paths.map(d => (
                     <motion.path
                         key={d}
                         variants={pathVariants}

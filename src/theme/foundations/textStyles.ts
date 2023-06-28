@@ -20,6 +20,13 @@ export const textStyles = {
         fontWeight: 450,
         fontFamily: 'inter',
     },
+    subtitle: {
+        fontSize: 36,
+        lineHeight: 1,
+        letterSpacing: '-0.02em',
+        fontWeight: 450,
+        fontFamily: 'inter',
+    },
     extraExtraLarge: {
         fontFamily: 'inter',
         fontSize: 26,
