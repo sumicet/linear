@@ -109,7 +109,7 @@ export function Hero() {
                     <Fragment key={direction}>
                         {lines.map(line => (
                             <MotionBox
-                                key={line.duration}
+                                key={line.repeatDelay}
                                 bg={`linear-gradient(to ${
                                     direction === 'horizontal' ? 'left' : 'top'
                                 },#9d9bf2 0.43%,#7877c6 14.11%,rgba(120,119,198,0) 62.95%)`}

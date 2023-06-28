@@ -5,6 +5,7 @@ export const space = {
     space24: '24px',
     space32: '32px',
     space48: '48px',
+    space56: '56px',
     space64: '64px',
     space72: '72px',
     space128: '128px',
