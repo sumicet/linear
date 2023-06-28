@@ -1,8 +1,11 @@
 import { MotionText, MotionVStack } from '@/components';
-import { Grid, Text, VStack } from '@chakra-ui/react';
+import { Box, Grid, Text, VStack } from '@chakra-ui/react';
 import { Balancer } from 'react-wrap-balancer';
 import { Card } from './Card';
 import { CardText } from './CardText';
+import { Keyboard } from './Keyboard';
+import { Bolt } from './Bolt';
+import { Circle } from './Circle';
 
 const textVariants = {
     hidden: { opacity: 0, y: -10 },
@@ -54,18 +57,27 @@ export function ToolsSection() {
 
             <Grid templateColumns='repeat(6, 1fr)' gap='space24' width='100%'>
                 <Card gridColumn='auto / span 4' variants={cardVariants} custom='left'>
+                    <Keyboard pointerEvents='none' userSelect='none' />
                     <CardText
                         title='Built for your keyboard'
                         description='Fly through your tasks with rapid-fire keyboard shortcuts for everything. Literally everything.'
                     />
                 </Card>
-                <Card gridColumn='auto / span 2' variants={cardVariants} custom='right'>
+                <Card spacing={0} gridColumn='auto / span 2' variants={cardVariants} custom='right'>
+                    <Bolt position='absolute' top={-92} pointerEvents='none' userSelect='none' />
                     <CardText
                         title='Breathtakingly fast'
                         description='Built for speed with 50ms interactions and real-time sync.'
                     />
                 </Card>
                 <Card gridColumn='auto / span 2' variants={cardVariants} custom='left'>
+                    <Circle
+                        position='absolute'
+                        width='130%'
+                        top={-80}
+                        pointerEvents='none'
+                        userSelect='none'
+                    />
                     <CardText
                         title='Designed for modern software teams'
                         description='Comes with built-in workflows that create focus and routine.'

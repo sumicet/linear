@@ -7,10 +7,11 @@ export function Card(props: ComponentPropsWithoutRef<typeof MotionVStack>) {
             {...props}
             spacing='space32'
             width='100%'
-            minHeight={420} // Border
+            minHeight={{ base: 420, sm: 480 }}
             overflow='hidden'
             bg='linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%)'
             borderRadius='radius48'
+            justifyContent='end'
             _before={{
                 content: '""',
                 position: 'absolute',
