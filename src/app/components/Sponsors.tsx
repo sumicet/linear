@@ -53,15 +53,19 @@ export function Sponsors() {
                     variants={textVariants}
                     size={{ base: 'large', md: 'extraLarge' }}
                     color='secondary'
+                    textAlign='center'
                 >
                     Powering the world’s best product teams.
-                </MotionText>
-                <MotionText
-                    variants={textVariants}
-                    custom={1}
-                    size={{ base: 'large', md: 'extraLarge' }}
-                >
-                    From next-gen startups to established enterprises.
+                    <MotionText
+                        as='span'
+                        variants={textVariants}
+                        custom={1}
+                        color='primary'
+                        size={{ base: 'large', md: 'extraLarge' }}
+                        textAlign='center'
+                    >
+                        From next-gen startups to established enterprises.
+                    </MotionText>
                 </MotionText>
             </VStack>
             <SimpleGrid
