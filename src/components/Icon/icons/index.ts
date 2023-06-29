@@ -11,3 +11,7 @@ export * from './AlanLogo';
 export * from './ArcLogo';
 export * from './OpenSeaLogo';
 export * from './PitchLogo';
+export * from './Twitter';
+export * from './GitHub';
+export * from './Slack';
+export * from './LogoSmall';

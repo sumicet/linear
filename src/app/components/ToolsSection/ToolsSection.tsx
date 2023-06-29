@@ -12,7 +12,7 @@ const textVariants = {
     visible: (custom: number) => ({
         opacity: 1,
         y: 0,
-        transition: { delay: custom * 0.4, duration: 1, ease: 'easeOut' },
+        transition: { delay: custom * 0.1, duration: 0.7, ease: 'easeOut' },
     }),
 };
 
@@ -21,7 +21,7 @@ const cardVariants = {
     visible: {
         opacity: 1,
         x: '0%',
-        transition: { delay: 0.8, duration: 1.2, ease: 'easeInOut' },
+        transition: { delay: 0.3, duration: 0.7, ease: 'easeInOut' },
     },
 };
 

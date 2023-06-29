@@ -1,5 +1,5 @@
 import { Icon, MotionCenter, MotionText, MotionVStack } from '@/components';
-import { SimpleGrid, VStack, useBreakpointValue } from '@chakra-ui/react';
+import { SimpleGrid, Text, VStack, useBreakpointValue } from '@chakra-ui/react';
 import { Horizon } from './Horizon';
 
 const allLogos = [
@@ -19,11 +19,11 @@ const allLogos = [
 
 const textVariants = {
     hidden: { opacity: 0, y: -10 },
-    visible: (custom: number) => ({
+    visible: {
         opacity: 1,
         y: 0,
-        transition: { delay: custom * 0.4, duration: 1, ease: 'easeOut' },
-    }),
+        transition: { duration: 0.7, ease: 'easeOut' },
+    },
 };
 
 const logoVariants = {
@@ -31,7 +31,7 @@ const logoVariants = {
     visible: (custom: number) => ({
         opacity: 1,
         y: 0,
-        transition: { duration: 1, ease: 'easeOut', delay: 0.6 + custom * 0.1 },
+        transition: { duration: 0.7, ease: 'easeOut', delay: 0.4 + custom * 0.05 },
     }),
 };
 
@@ -58,17 +58,15 @@ export function SponsorsSection() {
                         textAlign='center'
                     >
                         Powering the world’s best product teams.{' '}
-                        <MotionText
+                        <Text
                             as='span'
                             display={{ base: undefined, md: 'block' }}
-                            variants={textVariants}
-                            custom={1}
                             color='primary'
                             size={{ base: 'bodyL', md: 'bodyXL' }}
                             textAlign='center'
                         >
                             From next-gen startups to established enterprises.
-                        </MotionText>
+                        </Text>
                     </MotionText>
                 </VStack>
                 <SimpleGrid

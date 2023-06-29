@@ -5,6 +5,7 @@ import '@fontsource-variable/inter';
 import { theme } from '@/theme';
 import { Header } from './Header';
 import { ReactNode } from 'react';
+import { Footer } from './Footer';
 
 export function Layout({ children }: { children: ReactNode }) {
     return (
@@ -18,19 +19,22 @@ export function Layout({ children }: { children: ReactNode }) {
                     bg='radial-gradient(ellipse 80% 50% at 50% -20%,rgba(120,119,198,0.3),transparent)'
                     pointerEvents='none'
                 />
-                <VStack
-                    spacing='space64'
-                    flex={1}
-                    alignItems='flex-start'
-                    minHeight='100dvh'
-                    maxWidth='container'
-                    paddingX={{
-                        base: 'space24',
-                        sm: 'space32',
-                    }}
-                >
-                    <Header />
-                    {children}
+                <VStack width='100%'>
+                    <VStack
+                        spacing='space64'
+                        flex={1}
+                        alignItems='flex-start'
+                        minHeight='100dvh'
+                        maxWidth='container'
+                        paddingX={{
+                            base: 'space24',
+                            sm: 'space32',
+                        }}
+                    >
+                        <Header />
+                        {children}
+                    </VStack>
+                    <Footer />
                 </VStack>
             </Center>
         </ChakraBaseProvider>

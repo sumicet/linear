@@ -15,7 +15,6 @@ export const Link = defineStyleConfig({
             transitionDuration: 'regular',
         },
         ghost: {
-            fontSize: '1.1em',
             color: 'tertiary',
             _hover: {
                 color: 'primary',

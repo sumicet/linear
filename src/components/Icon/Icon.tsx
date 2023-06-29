@@ -13,10 +13,15 @@ import {
     ArcLogo,
     OpenSeaLogo,
     PitchLogo,
+    Twitter,
+    GitHub,
+    Slack,
+    LogoSmall,
 } from './icons';
 
 const icons = {
     logo: Logo,
+    logoSmall: LogoSmall,
     rampLogo: RampLogo,
     loomLogo: LoomLogo,
     vercelLogo: VercelLogo,
@@ -29,6 +34,9 @@ const icons = {
     arcLogo: ArcLogo,
     openSeaLogo: OpenSeaLogo,
     pitchLogo: PitchLogo,
+    twitter: Twitter,
+    gitHub: GitHub,
+    slack: Slack,
 } as const;
 
 export interface IconProps extends ChakraIconProps {
