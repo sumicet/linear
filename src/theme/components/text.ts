@@ -17,7 +17,7 @@ export const Text = defineStyleConfig({
             boxDecorationBreak: 'clone',
         },
     },
-    // defaultProps: {
-    //     variant: 'body',
-    // },
+    defaultProps: {
+        size: 'bodyM',
+    },
 });

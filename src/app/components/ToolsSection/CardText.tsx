@@ -10,7 +10,7 @@ export function CardText({ title, description }: { title: string; description: s
                 </Text>
             </Balancer>
             <Balancer>
-                <Text size='bodyM' color='secondary' textAlign='center'>
+                <Text color='secondary' textAlign='center'>
                     {description}
                 </Text>
             </Balancer>
