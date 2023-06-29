@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     icons: [
         {
             rel: 'icon',
-            url: '/favicon.ico',
+            url: 'favicon.ico',
         },
     ],
     twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         site: '@linear',
         creator: '@linear',
         card: 'summary_large_image',
-        images: ['/home.jpg'],
+        images: ['home.jpg'],
         description:
             'Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development.',
     },
