@@ -10,7 +10,7 @@ const starVariants = {
         opacity: 1,
         y: '-50%',
         x: '-50%',
-        transition: { duration: 4, ease: 'easeOut' },
+        transition: { duration: 2, ease: 'easeOut' },
     },
 };
 

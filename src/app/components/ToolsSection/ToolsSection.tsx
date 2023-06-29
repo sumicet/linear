@@ -1,5 +1,5 @@
 import { MotionText, MotionVStack } from '@/components';
-import { Box, Grid, Text, VStack } from '@chakra-ui/react';
+import { Grid } from '@chakra-ui/react';
 import { Balancer } from 'react-wrap-balancer';
 import { Card } from './Card';
 import { CardText } from './CardText';

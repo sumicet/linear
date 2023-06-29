@@ -9,7 +9,7 @@ const lightVariants = {
 
 const borderVariants = {
     hidden: { y: 50 },
-    visible: { y: 0, transition: { duration: 3, ease: 'easeOut' } },
+    visible: { y: 0, transition: { duration: 1, ease: 'easeOut' } },
 };
 
 export function Horizon() {
