@@ -1,7 +1,6 @@
 'use client';
 
 import { ChakraBaseProvider, VStack, Center, Box } from '@chakra-ui/react';
-import './globals.css';
 import '@fontsource-variable/inter';
 import { theme } from '@/theme';
 import { Header } from './Header';
