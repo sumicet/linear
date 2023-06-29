@@ -1,6 +1,6 @@
 'use client';
 
-import { ChakraBaseProvider, VStack, Center, Box } from '@chakra-ui/react';
+import { ChakraBaseProvider, VStack, Center, Box, Flex } from '@chakra-ui/react';
 import '@fontsource-variable/inter';
 import { theme } from '@/theme';
 import { Header } from './Header';
@@ -20,10 +20,9 @@ export function Layout({ children }: { children: ReactNode }) {
                     pointerEvents='none'
                 />
                 <VStack width='100%'>
-                    <VStack
-                        spacing='space64'
-                        flex={1}
-                        alignItems='flex-start'
+                    <Header />
+                    <Flex
+                        paddingTop='space64'
                         minHeight='100dvh'
                         maxWidth='container'
                         paddingX={{
@@ -31,9 +30,8 @@ export function Layout({ children }: { children: ReactNode }) {
                             sm: 'space32',
                         }}
                     >
-                        <Header />
                         {children}
-                    </VStack>
+                    </Flex>
                     <Footer />
                 </VStack>
             </Center>

@@ -6,7 +6,7 @@ import { sizes } from './sizes';
 import { radii } from './radii';
 import { breakpoints } from './breakpoints';
 // import { shadows } from './shadows';
-import { zIndex } from './zIndex';
+import { zIndices } from './zIndices';
 import { transition } from './transition';
 
 export const foundations = {
@@ -19,5 +19,5 @@ export const foundations = {
     breakpoints,
     // shadows,
     transition,
-    zIndex,
+    zIndices,
 };
