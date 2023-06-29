@@ -79,7 +79,7 @@ export function Footer() {
         >
             <MotionDivider variants={dividerVariants} variant='ghost' />
             <Wrap
-                paddingY={{ base: 'space32', sm: 'space56' }}
+                paddingY='space56'
                 paddingX={{ base: 'space24', md: 'space32' }}
                 width='100%'
                 spacing={0}
