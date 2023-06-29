@@ -1,6 +1,6 @@
 import '@/theme/globals.css';
 import '@fontsource-variable/inter';
-import { Providers } from './Providers';
+import { Layout } from './@layout';
 import { Metadata } from 'next';
 import { config } from '@/config';
 
@@ -74,8 +74,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang='en'>
-            <body>
-                <Providers>{children}</Providers>
+            <body suppressHydrationWarning={true}>
+                <Layout>{children}</Layout>
             </body>
         </html>
     );

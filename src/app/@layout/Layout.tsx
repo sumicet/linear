@@ -6,7 +6,7 @@ import { theme } from '@/theme';
 import { Header } from './Header';
 import { ReactNode } from 'react';
 
-export function Providers({ children }: { children: ReactNode }) {
+export function Layout({ children }: { children: ReactNode }) {
     return (
         <ChakraBaseProvider theme={theme}>
             <Center width='100%' flex={1} bgColor='background' color='primary'>

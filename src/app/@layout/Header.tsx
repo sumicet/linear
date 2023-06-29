@@ -1,3 +1,5 @@
+'use client';
+
 import {
     Button,
     Divider,
@@ -16,7 +18,6 @@ import { HiMenuAlt4 } from 'react-icons/hi';
 
 const links = ['Features', 'Method', 'Customers', 'Changelog', 'Integrations', 'Pricing'];
 const companyLinks = ['About', 'Blog', 'Careers'];
-
 const tabletLinks = ['Features', 'Method', 'Pricing', 'Company'];
 
 export function Header() {

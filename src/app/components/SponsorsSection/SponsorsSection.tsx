@@ -37,7 +37,6 @@ const logoVariants = {
 
 export function SponsorsSection() {
     const logos = useBreakpointValue({ base: allLogos.slice(0, 6), md: allLogos });
-    const as = useBreakpointValue({ base: 'span', md: undefined });
 
     return (
         <MotionVStack
@@ -60,7 +59,8 @@ export function SponsorsSection() {
                     >
                         Powering the world’s best product teams.{' '}
                         <MotionText
-                            as={as}
+                            as='span'
+                            display={{ base: undefined, md: 'block' }}
                             variants={textVariants}
                             custom={1}
                             color='primary'
