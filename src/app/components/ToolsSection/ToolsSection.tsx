@@ -40,7 +40,7 @@ export function ToolsSection() {
             <Balancer>
                 <MotionText
                     variants={textVariants}
-                    size={{ base: 'subtitle', md: 'title' }}
+                    size={{ base: 'headingM', md: 'healingL' }}
                     textAlign='center'
                 >
                     Unlike any tool you’ve used before
@@ -50,7 +50,7 @@ export function ToolsSection() {
                 <MotionText
                     variants={textVariants}
                     custom={0.4}
-                    size={{ base: 'large', md: 'extraLarge' }}
+                    size={{ base: 'bodyL', md: 'bodyXL' }}
                     color='secondary'
                     textAlign='center'
                 >

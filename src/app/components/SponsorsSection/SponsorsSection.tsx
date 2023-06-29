@@ -54,7 +54,7 @@ export function SponsorsSection() {
                 <VStack width='100%' spacing={0}>
                     <MotionText
                         variants={textVariants}
-                        size={{ base: 'large', md: 'extraLarge' }}
+                        size={{ base: 'bodyL', md: 'bodyXL' }}
                         color='secondary'
                         textAlign='center'
                     >
@@ -64,7 +64,7 @@ export function SponsorsSection() {
                             variants={textVariants}
                             custom={1}
                             color='primary'
-                            size={{ base: 'large', md: 'extraLarge' }}
+                            size={{ base: 'bodyL', md: 'bodyXL' }}
                             textAlign='center'
                         >
                             From next-gen startups to established enterprises.

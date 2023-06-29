@@ -5,12 +5,12 @@ export function CardText({ title, description }: { title: string; description: s
     return (
         <VStack spacing='space16' width='100%'>
             <Balancer>
-                <Text size='extraExtraLarge' textAlign='center'>
+                <Text size='headingS' textAlign='center'>
                     {title}
                 </Text>
             </Balancer>
             <Balancer>
-                <Text size='medium' color='secondary' textAlign='center'>
+                <Text size='bodyM' color='secondary' textAlign='center'>
                     {description}
                 </Text>
             </Balancer>

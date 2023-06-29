@@ -25,10 +25,10 @@ export const Link = defineStyleConfig({
     },
     sizes: {
         small: {
-            textStyle: 'small',
+            textStyle: 'bodyS',
         },
         medium: {
-            textStyle: 'medium',
+            textStyle: 'bodyM',
         },
     },
 });

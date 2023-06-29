@@ -1,63 +1,63 @@
 export const textStyles = {
-    heading: {
+    headingXXl: {
         fontSize: 80,
         lineHeight: 1,
         letterSpacing: '-0.02em',
         fontWeight: 500,
         fontFamily: 'inter',
     },
-    subheading: {
+    headingXL: {
         fontSize: 44,
         lineHeight: 1,
         letterSpacing: '-0.01em',
         fontWeight: 500,
         fontFamily: 'inter',
     },
-    title: {
+    healingL: {
         fontSize: 56,
         lineHeight: 1,
         letterSpacing: '-0.02em',
         fontWeight: 450,
         fontFamily: 'inter',
     },
-    subtitle: {
+    headingM: {
         fontSize: 36,
         lineHeight: 1,
         letterSpacing: '-0.02em',
         fontWeight: 450,
         fontFamily: 'inter',
     },
-    extraExtraLarge: {
+    headingS: {
         fontFamily: 'inter',
         fontSize: 26,
         lineHeight: 1.2,
         fontWeight: 450,
     },
-    extraLarge: {
+    bodyXL: {
         fontFamily: 'inter',
         fontSize: 22,
         lineHeight: 1.3,
         fontWeight: 400,
     },
-    large: {
+    bodyL: {
         fontFamily: 'inter',
         fontSize: 18,
         lineHeight: 1.3,
         fontWeight: 400,
     },
-    medium: {
+    bodyM: {
         fontFamily: 'inter',
         fontSize: 16,
         lineHeight: 1.2,
         fontWeight: 500,
     },
-    small: {
+    bodyS: {
         fontFamily: 'inter',
         fontSize: 14,
         lineHeight: 1.5,
         fontWeight: 500,
     },
-    extraSmall: {
+    bodyXS: {
         fontFamily: 'inter',
         fontSize: 13,
         lineHeight: 1.5,

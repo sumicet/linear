@@ -48,7 +48,7 @@ export function MainSection() {
                         <Balancer>
                             <Text
                                 as='h1'
-                                size={{ base: 'subheading', md: 'heading' }}
+                                size={{ base: 'headingXL', md: 'headingXXl' }}
                                 variant='gradient'
                             >
                                 Linear is a better way to build products
@@ -65,7 +65,7 @@ export function MainSection() {
                         <Balancer>
                             <Text
                                 as='h2'
-                                size={{ base: 'large', md: 'extraLarge' }}
+                                size={{ base: 'bodyL', md: 'bodyXL' }}
                                 color='secondary'
                                 textAlign='center'
                             >

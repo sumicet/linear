@@ -37,18 +37,18 @@ export const Button = defineStyleConfig({
         extraSmall: {
             paddingX: 'space12',
             height: 28,
-            textStyle: 'extraSmall',
+            textStyle: 'bodyXS',
         },
         small: {
             height: 'space32',
             paddingX: 'space16',
-            textStyle: 'small',
+            textStyle: 'bodyS',
             textAlign: 'center',
         },
         medium: {
             height: 'space48',
             paddingX: 'space24',
-            textStyle: 'medium',
+            textStyle: 'bodyM',
         },
     },
     defaultProps: {
