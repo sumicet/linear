@@ -11,7 +11,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     'linear-gradient(transparent 0%, rgba(0, 0, 0, 0.57) 33.98%, black 100%)',
             }}
         >
-            <rect width='708.683' height='227' fill='#838383' fill-opacity='0.1' rx='12'></rect>
+            <rect width='708.683' height='227' fill='#838383' fillOpacity='0.1' rx='12'></rect>
             <g data-key='pageup'>
                 <rect
                     width='38.756'
@@ -19,7 +19,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.695'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -32,8 +32,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.945'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -44,7 +44,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.695'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -57,8 +57,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.945'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -69,7 +69,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='551.812'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -82,8 +82,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='552.062'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -94,7 +94,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='591.492'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -107,8 +107,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='591.742'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -119,7 +119,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='565'
                     y='9'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -132,8 +132,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='565.25'
                     y='9.25'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -144,7 +144,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='549.047'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -157,8 +157,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='549.297'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -169,7 +169,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='509.367'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -182,8 +182,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='509.617'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -194,7 +194,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='485.375'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -207,8 +207,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='485.625'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -219,7 +219,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='442.922'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -232,8 +232,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='443.172'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -244,7 +244,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='400.477'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -257,8 +257,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='400.727'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -269,7 +269,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='466.914'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -282,8 +282,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='467.164'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -294,7 +294,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='424.469'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path fill='#fff' d='M442.09 117.736v-6.486h.785v5.789h3.015v.697h-3.8z'></path>
@@ -304,8 +304,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='424.719'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -316,7 +316,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='358.031'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -329,8 +329,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='358.281'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -341,7 +341,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='315.586'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -354,8 +354,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='315.836'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -366,7 +366,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='273.141'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -379,8 +379,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='273.391'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -391,7 +391,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='230.688'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -404,8 +404,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='230.938'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -416,7 +416,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='188.242'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -429,8 +429,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='188.492'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -441,7 +441,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='145.797'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -454,8 +454,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='146.047'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -466,7 +466,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='103.352'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -479,8 +479,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='103.602'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -491,7 +491,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.227'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -504,8 +504,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.477'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -516,7 +516,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='382.023'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -529,8 +529,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='382.273'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -541,7 +541,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='339.578'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -554,8 +554,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='339.828'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -566,7 +566,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='297.133'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -579,8 +579,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='297.383'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -591,7 +591,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='254.68'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -604,8 +604,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='254.93'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -616,7 +616,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='212.234'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -629,8 +629,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='212.484'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -641,7 +641,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='169.789'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -654,8 +654,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='170.039'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -666,7 +666,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='127.344'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -679,8 +679,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='127.594'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -691,7 +691,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='84.891'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -704,8 +704,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='85.141'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -716,7 +716,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.227'
                     y='94.122'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -729,8 +729,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.477'
                     y='94.372'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -741,7 +741,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='506.594'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -754,8 +754,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='506.844'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -766,7 +766,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='464.148'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -779,8 +779,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='464.398'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -791,7 +791,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='421.703'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -804,8 +804,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='421.953'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -816,7 +816,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='379.258'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path fill='#fff' d='M399.727 68.803v6.486h-.786v-6.486h.786z'></path>
@@ -826,8 +826,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='379.508'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -838,7 +838,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='336.805'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -851,8 +851,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='337.055'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -863,7 +863,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='294.359'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -876,8 +876,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='294.609'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -888,7 +888,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='251.914'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -901,8 +901,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='252.164'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -913,7 +913,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='209.469'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -926,8 +926,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='209.719'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -938,7 +938,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='167.016'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -951,8 +951,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='167.266'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -963,7 +963,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='124.57'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -976,8 +976,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='124.82'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -988,7 +988,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='82.125'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1001,8 +1001,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='82.375'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1013,7 +1013,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.227'
                     y='51.675'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1026,8 +1026,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.477'
                     y='51.925'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1038,7 +1038,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.227'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1051,8 +1051,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='9.477'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1063,7 +1063,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='51.984'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1076,8 +1076,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='52.234'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1088,7 +1088,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='94.742'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1101,8 +1101,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='94.992'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1113,7 +1113,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='137.492'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1126,8 +1126,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='137.742'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1138,7 +1138,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='180.25'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1151,8 +1151,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='180.5'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1163,7 +1163,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='223.008'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1176,8 +1176,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='223.258'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1188,7 +1188,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='265.766'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1201,8 +1201,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='266.016'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1213,7 +1213,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='308.516'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1226,8 +1226,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='308.766'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1238,7 +1238,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='351.273'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1251,8 +1251,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='351.523'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1263,7 +1263,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='394.031'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1276,8 +1276,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='394.281'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1288,7 +1288,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='436.789'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1301,8 +1301,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='437.039'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1313,7 +1313,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='479.547'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1326,8 +1326,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='479.797'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1338,7 +1338,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='522.297'
                     y='9.228'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1351,8 +1351,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='522.547'
                     y='9.478'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1363,7 +1363,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.695'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1376,8 +1376,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.945'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1388,7 +1388,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.695'
                     y='179.016'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path fill='#fff' d='M677.256 202.811v-8.108l6.891 4.054-6.891 4.054z'></path>
@@ -1398,8 +1398,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='660.945'
                     y='179.266'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1410,7 +1410,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='618.25'
                     y='179.016'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path fill='#fff' d='M641.811 195.258l-4.054 6.892-4.054-6.892h8.108z'></path>
@@ -1420,8 +1420,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='618.5'
                     y='179.266'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1432,7 +1432,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='575.805'
                     y='179.016'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path fill='#fff' d='M598.742 202.811l-6.892-4.054 6.892-4.054v8.108z'></path>
@@ -1442,8 +1442,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='576.055'
                     y='179.266'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1455,7 +1455,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='57'
                         y='179'
                         fill='#fff'
-                        fill-opacity='0.08'
+                        fillOpacity='0.08'
                         rx='4'
                     ></rect>
                     <path
@@ -1468,8 +1468,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='57.25'
                         y='179.25'
                         stroke='url(#keyboard-stroke)'
-                        stroke-opacity='0.3'
-                        stroke-width='0.5'
+                        strokeOpacity='0.3'
+                        strokeWidth='0.5'
                         rx='2.75'
                     ></rect>
                 </g>
@@ -1480,7 +1480,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='105'
                         y='179'
                         fill='#fff'
-                        fill-opacity='0.08'
+                        fillOpacity='0.08'
                         rx='4'
                     ></rect>
                     <path
@@ -1493,8 +1493,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='105.25'
                         y='179.25'
                         stroke='url(#keyboard-stroke)'
-                        stroke-opacity='0.3'
-                        stroke-width='0.5'
+                        strokeOpacity='0.3'
+                        strokeWidth='0.5'
                         rx='2.75'
                     ></rect>
                 </g>
@@ -1505,7 +1505,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='9'
                         y='179'
                         fill='#fff'
-                        fill-opacity='0.08'
+                        fillOpacity='0.08'
                         rx='4'
                     ></rect>
                     <path
@@ -1518,8 +1518,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='9.25'
                         y='179.25'
                         stroke='url(#keyboard-stroke)'
-                        stroke-opacity='0.3'
-                        stroke-width='0.5'
+                        strokeOpacity='0.3'
+                        strokeWidth='0.5'
                         rx='2.75'
                     ></rect>
                 </g>
@@ -1530,7 +1530,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='500.141'
                         y='179.016'
                         fill='#fff'
-                        fill-opacity='0.08'
+                        fillOpacity='0.08'
                         rx='4'
                     ></rect>
                     <path
@@ -1543,8 +1543,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                         x='500.391'
                         y='179.266'
                         stroke='url(#keyboard-stroke)'
-                        stroke-opacity='0.3'
-                        stroke-width='0.5'
+                        strokeOpacity='0.3'
+                        strokeWidth='0.5'
                         rx='2.75'
                     ></rect>
                 </g>
@@ -1556,7 +1556,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='153.18'
                     y='179.016'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <rect
@@ -1565,8 +1565,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='153.43'
                     y='179.266'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1577,7 +1577,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='618.25'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path fill='#fff' d='M633.189 158.742l4.054-6.892 4.054 6.892h-8.108z'></path>
@@ -1587,8 +1587,8 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='618.5'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
@@ -1599,7 +1599,7 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='527.82'
                     y='136.569'
                     fill='#fff'
-                    fill-opacity='0.08'
+                    fillOpacity='0.08'
                     rx='4'
                 ></rect>
                 <path
@@ -1612,14 +1612,14 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                     x='528.07'
                     y='136.819'
                     stroke='url(#keyboard-stroke)'
-                    stroke-opacity='0.3'
-                    stroke-width='0.5'
+                    strokeOpacity='0.3'
+                    strokeWidth='0.5'
                     rx='2.75'
                 ></rect>
             </g>
             <path
                 fill='#fff'
-                fill-opacity='0.2'
+                fillOpacity='0.2'
                 d='M687.999 38.297c.225-.195.445-.4.659-.614 4.789-4.788 4.789-12.553 0-17.341-4.788-4.79-12.552-4.79-17.341 0a12.64 12.64 0 00-.614.659l17.296 17.296zm-1.461 1.085l-16.92-16.92a12.195 12.195 0 00-.881 1.664l16.137 16.137a12.157 12.157 0 001.664-.881zm-3.565 1.526l-14.881-14.881a12.301 12.301 0 00-.342 2.203l13.02 13.02a12.296 12.296 0 002.203-.342zm-4.868.222L667.87 30.895a12.208 12.208 0 003.447 6.788 12.206 12.206 0 006.788 3.447z'
             ></path>
             <rect
@@ -1628,17 +1628,17 @@ export function Keyboard(props: HTMLChakraProps<'svg'>) {
                 x='0.5'
                 y='0.5'
                 stroke='url(#board-stroke)'
-                stroke-opacity='0.05'
+                strokeOpacity='0.05'
                 rx='11.5'
             ></rect>
             <defs>
                 <linearGradient id='keyboard-stroke' x1='0' x2='0' y1='0' y2='1'>
-                    <stop offset='0' stop-color='#fff'></stop>
-                    <stop offset='1' stop-color='#fff' stop-opacity='0'></stop>
+                    <stop offset='0' stopColor='#fff'></stop>
+                    <stop offset='1' stopColor='#fff' stopOpacity='0'></stop>
                 </linearGradient>
                 <linearGradient id='board-stroke' x1='0' x2='0' y1='0' y2='1'>
-                    <stop offset='0' stop-color='#fff' stop-opacity='0'></stop>
-                    <stop offset='1' stop-color='#fff'></stop>
+                    <stop offset='0' stopColor='#fff' stopOpacity='0'></stop>
+                    <stop offset='1' stopColor='#fff'></stop>
                 </linearGradient>
             </defs>
         </chakra.svg>

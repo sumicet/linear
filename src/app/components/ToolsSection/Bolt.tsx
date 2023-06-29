@@ -1,5 +1,6 @@
 import { HTMLChakraProps, chakra } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
+import { Fragment } from 'react';
 
 const pathArray = [
     'M223.031 111.534a2.535 2.535 0 012.534-2.534h8.869a2.535 2.535 0 110 5.068h-8.869a2.534 2.534 0 01-2.534-2.534z',
@@ -46,23 +47,21 @@ export function Bolt(props: HTMLChakraProps<'svg'>) {
                 maskImage: 'linear-gradient(black, transparent 70%)',
             }}
         >
-            <g stroke-width='18' filter='url(#filter0_f_1706_102550)' opacity='0.4'>
+            <g strokeWidth='18' filter='url(#filter0_f_1706_102550)' opacity='0.4'>
                 {pathArray.map(path => (
                     <path key={path} d={path} stroke='url(#bolt-stroke)' />
                 ))}
             </g>
             <g>
                 {pathArray.map((path, index) => (
-                    <>
+                    <Fragment key={path}>
                         <path
-                            key={path}
                             stroke='url(#bolt-stroke)'
-                            stroke-opacity='0.2'
-                            stroke-width='8'
+                            strokeOpacity='0.2'
+                            strokeWidth='8'
                             d={path}
                         />
                         <motion.path
-                            key={path}
                             initial={{
                                 fill: 'rgba(255, 255, 255, 1)',
                             }}
@@ -78,13 +77,13 @@ export function Bolt(props: HTMLChakraProps<'svg'>) {
                             stroke='url(#bolt-radial)'
                             d={path}
                         />
-                    </>
+                    </Fragment>
                 ))}
             </g>
             <defs>
                 <linearGradient id='bolt-stroke' gradientUnits='userSpaceOnUse'>
-                    <stop offset='0' stop-color='#7877C6'></stop>
-                    <stop offset='1' stop-color='#6663F6' stop-opacity='1'></stop>
+                    <stop offset='0' stopColor='#7877C6'></stop>
+                    <stop offset='1' stopColor='#6663F6' stopOpacity='1'></stop>
                 </linearGradient>
                 <radialGradient
                     id='bolt-radial'
@@ -94,8 +93,8 @@ export function Bolt(props: HTMLChakraProps<'svg'>) {
                     gradientTransform='rotate(90 36 176.262) scale(288.739 199.426)'
                     gradientUnits='userSpaceOnUse'
                 >
-                    <stop stop-color='#fff'></stop>
-                    <stop offset='1' stop-color='#fff' stop-opacity='0'></stop>
+                    <stop stopColor='#fff'></stop>
+                    <stop offset='1' stopColor='#fff' stopOpacity='0'></stop>
                 </radialGradient>
                 <filter
                     id='filter0_f_1706_102550'
@@ -103,10 +102,10 @@ export function Bolt(props: HTMLChakraProps<'svg'>) {
                     height='517.016'
                     x='0'
                     y='0'
-                    color-interpolation-filters='sRGB'
+                    colorInterpolationFilters='sRGB'
                     filterUnits='userSpaceOnUse'
                 >
-                    <feFlood flood-opacity='0' result='BackgroundImageFix'></feFlood>
+                    <feFlood floodOpacity='0' result='BackgroundImageFix'></feFlood>
                     <feBlend in='SourceGraphic' in2='BackgroundImageFix' result='shape'></feBlend>
                     <feGaussianBlur
                         result='effect1_foregroundBlur_1706_102550'
