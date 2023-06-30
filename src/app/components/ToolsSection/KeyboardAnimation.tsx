@@ -172,7 +172,7 @@ export function KeyboardAnimation() {
                     <MotionBox
                         key={name}
                         ref={ref => {
-                            buttonRefs.current[index] = ref;
+                            buttonRefs.current[index] = ref as HTMLElement | null;
                         }}
                         animate={{
                             opacity: command.name === name ? 1 : 0.6,
