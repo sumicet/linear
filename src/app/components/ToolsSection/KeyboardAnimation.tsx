@@ -197,8 +197,9 @@ export function KeyboardAnimation() {
                                     paddingX='space8'
                                     bgColor='white5'
                                     borderRadius='full'
+                                    marginLeft='-0.5rem'
                                 >
-                                    <Text size='bodyXS'>
+                                    <Text size='bodyXS' lineHeight={1}>
                                         {keys.map(key => keyToSymbol[key] || key.toUpperCase())}
                                     </Text>
                                 </Center>

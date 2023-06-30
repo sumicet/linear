@@ -38,6 +38,7 @@ export function MainSection() {
                                     paddingX='space8'
                                     bgColor='white5'
                                     borderRadius='full'
+                                    marginRight='-0.5rem'
                                 >
                                     <Icon as={BsArrowRight} />
                                 </Center>
