@@ -1,6 +1,6 @@
 import '@/theme/globals.css';
 import '@fontsource-variable/inter';
-import { Layout } from './@layout';
+import { Layout } from './wrapper';
 import { Metadata } from 'next';
 import { config } from '@/config';
 
