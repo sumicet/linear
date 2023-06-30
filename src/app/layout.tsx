@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     icons: [
         {
             rel: 'icon',
-            url: 'favicon.ico',
+            url: '/favicon.ico',
         },
     ],
     twitter: {
