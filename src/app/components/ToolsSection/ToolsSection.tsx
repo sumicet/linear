@@ -3,9 +3,9 @@ import { Grid } from '@chakra-ui/react';
 import { Balancer } from 'react-wrap-balancer';
 import { Card } from './Card';
 import { CardText } from './CardText';
-import { Keyboard } from './Keyboard';
 import { Bolt } from './Bolt';
 import { Circle } from './Circle';
+import { KeyboardAnimation } from './KeyboardAnimation';
 
 const textVariants = {
     hidden: { opacity: 0, y: -10 },
@@ -62,7 +62,8 @@ export function ToolsSection() {
 
             <Grid templateColumns='repeat(6, 1fr)' gap='space24' width='100%'>
                 <Card gridColumn='auto / span 4' variants={cardVariants} custom='left'>
-                    <Keyboard pointerEvents='none' userSelect='none' />
+                    <KeyboardAnimation />
+
                     <CardText
                         title='Built for your keyboard'
                         description='Fly through your tasks with rapid-fire keyboard shortcuts for everything. Literally everything.'

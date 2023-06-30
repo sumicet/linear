@@ -27,7 +27,7 @@ export function MainSection() {
     return (
         <VStack spacing={{ base: 'space72', md: 'space128' }} width='100%'>
             <VStack spacing='space48' width='100%'>
-                <VStack spacing='space24' width='100%'>
+                <VStack spacing='space24' width='100%' maxWidth={1130}>
                     <MotionVStack spacing='space24' width='100%' {...animationProps}>
                         <Button
                             variant='glass'
