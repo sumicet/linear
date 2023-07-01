@@ -63,4 +63,10 @@ export const textStyles = {
         lineHeight: 1.5,
         fontWeight: 500,
     },
+    bodyXXS: {
+        fontFamily: 'inter',
+        fontSize: 12,
+        lineHeight: 1.5,
+        fontWeight: 400,
+    },
 };

@@ -17,6 +17,10 @@ import {
     GitHub,
     Slack,
     LogoSmall,
+    Assign,
+    Status,
+    Priority,
+    Label,
 } from './icons';
 
 const icons = {
@@ -37,6 +41,10 @@ const icons = {
     twitter: Twitter,
     gitHub: GitHub,
     slack: Slack,
+    assign: Assign,
+    status: Status,
+    priority: Priority,
+    label: Label,
 } as const;
 
 export interface IconProps extends ChakraIconProps {

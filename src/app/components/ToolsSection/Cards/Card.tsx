@@ -22,12 +22,8 @@ export function Card(props: ComponentPropsWithoutRef<typeof MotionVStack>) {
                 padding: 1,
                 borderRadius: 'inherit',
             }}
-            paddingX={{
+            padding={{
                 base: 'space32',
-                md: 'space56',
-            }}
-            paddingY={{
-                base: 'space8',
                 md: 'space56',
             }}
         />

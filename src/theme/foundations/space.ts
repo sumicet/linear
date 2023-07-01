@@ -2,6 +2,7 @@ export const space = {
     space8: '8px',
     space12: '12px',
     space16: '16px',
+    space20: '20px',
     space24: '24px',
     space32: '32px',
     space40: '40px',

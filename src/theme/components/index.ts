@@ -3,6 +3,7 @@ import { Link } from './link';
 import { Button } from './button';
 import { Modal } from './modal';
 import { Divider } from './divider';
+import { Input } from './input';
 
 export const components = {
     Text,
@@ -10,4 +11,5 @@ export const components = {
     Button,
     Modal,
     Divider,
+    Input,
 };

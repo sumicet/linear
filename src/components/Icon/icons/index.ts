@@ -15,3 +15,7 @@ export * from './Twitter';
 export * from './GitHub';
 export * from './Slack';
 export * from './LogoSmall';
+export * from './Assign';
+export * from './Status';
+export * from './Priority';
+export * from './Label';

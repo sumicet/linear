@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef } from 'react';
 import { Box, Button, Center, HStack, Text } from '@chakra-ui/react';
 import { recipes } from '@/theme';
 import { MotionBox } from '@/components';
+import { useScrollToChild } from '@/hooks';
 
 const commands = [
     {
@@ -92,33 +93,16 @@ export function KeyboardAnimation() {
     const [command, cycle] = useCycle(...commands);
     const interval = useRef<NodeJS.Timeout>();
     const buttonRefs = useRef<(HTMLElement | null)[]>([...Array(commands.length).map(() => null)]);
-    const hStackRef = useRef<HTMLDivElement>(null);
     const isPaused = useRef(false);
+
+    const [ref, scrollToChild] = useScrollToChild();
 
     const cycleToIndex = useCallback(
         (index: number) => {
             cycle(index);
-            const hStackElement = hStackRef.current;
-            const buttonElement = buttonRefs.current[index];
-
-            // The displayed width of the HStack, not the width of the scrolling area
-            const hStackWidth = hStackElement?.offsetWidth || 0;
-            // Distance from the left of the HStack to the left of the button
-            const buttonOffsetLeft = buttonElement?.offsetLeft || 0;
-            const buttonWidth = buttonElement?.offsetWidth || 0;
-            const scrollDistance =
-                // Go back to center the button
-                buttonOffsetLeft +
-                buttonWidth / 2 -
-                // Go to the center of the HStack
-                hStackWidth / 2;
-
-            hStackElement?.scroll({
-                left: scrollDistance,
-                behavior: 'smooth',
-            });
+            scrollToChild(index + 1);
         },
-        [cycle]
+        [cycle, scrollToChild]
     );
 
     useEffect(() => {
@@ -154,10 +138,10 @@ export function KeyboardAnimation() {
                 }, {} as Record<string, any>)}
             />
             <HStack
-                ref={hStackRef}
+                ref={ref}
                 width='100%'
                 overflow='auto'
-                scrollSnapType='x'
+                scrollSnapType='x mandatory'
                 spacing='space8'
                 maxWidth='100%'
                 sx={{
