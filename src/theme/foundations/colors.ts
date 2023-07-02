@@ -6,6 +6,7 @@ export const colors = {
     white1: 'rgba(255, 255, 255, 0.01)',
     white5: 'rgba(255, 255, 255, 0.05)',
     white10: 'rgba(255, 255, 255, 0.1)',
+    white15: 'rgba(255, 255, 255, 0.15)',
     white20: 'rgba(255, 255, 255, 0.2)',
     white50: 'rgba(255, 255, 255, 0.5)',
 };

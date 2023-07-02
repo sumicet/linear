@@ -21,7 +21,7 @@ export const textStyles = {
         fontFamily: 'inter',
     },
     headingM: {
-        fontSize: 36,
+        fontSize: 32,
         lineHeight: 1,
         letterSpacing: '-0.02em',
         fontWeight: 450,

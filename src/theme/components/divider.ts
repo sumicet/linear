@@ -21,6 +21,11 @@ export const Divider = defineStyleConfig({
         solid: {
             bg: 'rgb(34, 35, 38)',
         },
+        gradient: props => ({
+            bg: `linear-gradient(${
+                props.orientation === 'vertical' ? 'to bottom' : 'to right'
+            },transparent,rgba(255,255,255,0.1) 50%,transparent)`,
+        }),
     },
     defaultProps: {
         variant: 'ghost',

@@ -1,4 +1,15 @@
-import { Box, Center, Divider, Grid, Stack, Text, VStack, chakra } from '@chakra-ui/react';
+import {
+    Box,
+    Center,
+    Divider,
+    Flex,
+    Grid,
+    SimpleGrid,
+    Stack,
+    Text,
+    VStack,
+    chakra,
+} from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
 export const MotionBox = motion(Box);
@@ -10,3 +21,5 @@ export const MotionFooter = motion(chakra.footer);
 export const MotionStack = motion(Stack);
 export const MotionDivider = motion(Divider);
 export const MotionGrid = motion(Grid);
+export const MotionFlex = motion(Flex);
+export const MotionSimpleGrid = motion(SimpleGrid);

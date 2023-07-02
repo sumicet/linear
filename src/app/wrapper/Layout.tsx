@@ -21,15 +21,7 @@ export function Layout({ children }: { children: ReactNode }) {
                 />
                 <VStack width='100%'>
                     <Header />
-                    <Flex
-                        paddingTop='space64'
-                        minHeight='100dvh'
-                        maxWidth='container'
-                        paddingX={{
-                            base: 'space24',
-                            sm: 'space32',
-                        }}
-                    >
+                    <Flex paddingTop='space64' minHeight='100dvh' width='100%'>
                         {children}
                     </Flex>
                     <Footer />
